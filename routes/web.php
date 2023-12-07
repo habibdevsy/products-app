@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ProductController;
+use App\Livewire\Products;
+use App\Livewire\ProductDetails;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+// Route::resource('/products', ProductController::class);
+
+Route::get('/products', Products::class)->name('products');
+Route::get('/products/{id}', ProductDetails::class)->name('product.details');
