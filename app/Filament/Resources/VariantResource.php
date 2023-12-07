@@ -16,7 +16,6 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 class VariantResource extends Resource
 {
     protected static ?string $model = Variant::class;
-
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
     protected static ?string $navigationGroup = 'Shop';
 

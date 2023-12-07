@@ -24,6 +24,7 @@ class ProductDetails extends Component
          'product' => $this->product,
       ]);
     }
+    
     public function priceWithVariant($price_difference)
     {
        $this->current_price = $this->product->price + $price_difference;

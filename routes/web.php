@@ -18,7 +18,6 @@ use App\Livewire\ProductDetails;
 Route::get('/', function () {
     return view('welcome');
 });
-// Route::resource('/products', ProductController::class);
 
 Route::get('/products', Products::class)->name('products');
 Route::get('/products/{id}', ProductDetails::class)->name('product.details');

@@ -19,6 +19,6 @@ use App\Http\Controllers\Api\VariantController;
 //     return $request->user();
 // });
 Route::prefix('v1')->group(function () {
-      Route::apiResource('products',ProductController::class);
+      Route::apiResource('products', ProductController::class);
       Route::apiResource('variants', VariantController::class)->except('index');
     });
