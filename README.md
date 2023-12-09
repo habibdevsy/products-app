@@ -15,7 +15,7 @@ This project demonstrates how to implement CRUD operations for an entity called 
 8. Run : php artisan make:filament-user
 9. Run : php artisan serve 
 10. Open the project in browser (http://127.0.0.1:8000/admin) and login using the credentials you entered earlier.
-
+11. Frontend : please visit the link: http://127.0.0.1:8000/products
 ## APIs documentation 
 Please visit the link:
 https://documenter.getpostman.com/view/11814853/2s9YeN3pPR
